@@ -1,0 +1,13 @@
+Puedes ejecutar el proyecto 
+
+esta en .net 3.1
+
+No he borrado los recursos asi que deberia funcionar
+
+te dejo la plantilla de creacion de recursos
+
+
+-- lo separe en 4 objetos de resource aunque atacan al mismo storage cada uno ataca al container que le corresponde
+-- separado tambien en 4 objetos de servicio: de ia para textos, caras, imagenes con objetos e imagenes con textos.
+-- todas las keys en el appsettings
+-- funciona con inyeccion de dependencias cada interfaz tiene su relación en la clase StartUp -> ConfigureServices
